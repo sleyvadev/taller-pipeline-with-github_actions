@@ -1,1 +1,2 @@
 # Taller de Pipeline con Github Actions y Heroku
+[![Pipeline of Continuos Integration y Deployment](https://github.com/sleyvadev/taller-pipeline-with-github_actions/actions/workflows/pipeline.yml/badge.svg?branch=main)](https://github.com/sleyvadev/taller-pipeline-with-github_actions/actions/workflows/pipeline.yml)
