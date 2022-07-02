@@ -21,6 +21,6 @@ public class App1ApplicationTests {
 	@Test
 	public void greetingShouldReturnDefaultMessage() throws Exception {
 		assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/hello",
-				String.class)).contains("Spring Boot Application - Valle Grande");
+				String.class)).contains("Spring Boot Application - Valle Grande Taller");
 	}
 }

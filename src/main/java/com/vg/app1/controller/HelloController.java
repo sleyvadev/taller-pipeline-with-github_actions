@@ -9,7 +9,7 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	public @ResponseBody String hello() {
-		return "Spring Boot Application - Valle Grande";
+		return "Spring Boot Application - Valle Grande Taller";
 	}
 
 }
