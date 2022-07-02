@@ -1,4 +1,4 @@
-name: Pipeline of Continuos Integration y Deployment
+name: Taller Pipeline Valle Grande
 
 on:
   push:
@@ -8,10 +8,10 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  hello_world:
+  taller:
     runs-on: ubuntu-18.04
     steps:
-      - name: Echo the message
-        run: |
-          echo "Hola Valle Grande"
-      - run: ls -l
+      - name: Dame la fecha de hoy
+        run: date
+      - name: Que directorios tengo
+        run: ls -l
